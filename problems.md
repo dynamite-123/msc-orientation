@@ -13,12 +13,12 @@ This file contains 5 beginner-friendly Python problems designed to practice:
 ## 1. Even or Odd
 Write a program that takes an integer as input and prints `"Even"` if the number is even, and `"Odd"` if the number is odd.
 
-### Sample Input
+#### Sample Input
 ```
 7
 ```
 
-### Sample Output
+#### Sample Output
 ```
 Odd
 ```

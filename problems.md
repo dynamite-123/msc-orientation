@@ -1,12 +1,12 @@
 # Python Basics – Practice Problems
 
 This file contains 5 beginner-friendly Python problems designed to practice:
+- Primary data types  
 - Loops  
 - Conditionals  
+- Strings  
 - Lists  
 - Dictionaries  
-- Strings  
-- Primary data types  
 
 ---
 

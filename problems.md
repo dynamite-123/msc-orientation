@@ -14,7 +14,7 @@ This file contains 5 beginner-friendly Python problems designed to practice:
 Write a program that takes an integer as input and prints `"Even"` if the number is even, and `"Odd"` if the number is odd.
 
 ### Boiler Plate
-```
+``` python
 def solve(x: int) -> None:
     # write your logic here
 

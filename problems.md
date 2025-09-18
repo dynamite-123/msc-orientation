@@ -48,12 +48,12 @@ Write a program that takes a list of integers and finds the maximum value in the
 
 ### Boiler Plate
 ``` python
-def solve(numbers: list[int]) -> None:
-    # write your logic here and print the maximum number
+def solve(numbers: list[int]) -> int:
+    # write your logic here and return the maximum number
 
 n = int(input())
 numbers = list(map(int, input().split()))
-solve(numbers)
+print(solve(numbers))
 ```
 
 #### Sample Input
@@ -85,11 +85,11 @@ Write a program that takes a string as input and prints the string in reverse or
 
 ### Boiler Plate
 ``` python
-def solve(text: str) -> None:
-    # write your logic here and print the reversed string
+def solve(text: str) -> str:
+    # write your logic here and return the reversed string
 
 text = input()
-solve(text)
+print(solve(text))
 ```
 
 #### Sample Input
@@ -164,14 +164,15 @@ Write a program that takes an array of integers and a target sum, then finds two
 
 ### Boiler Plate
 ``` python
-def solve(numbers: list[int], target: int) -> None:
-    # write your logic here and print the indices of the two numbers
-    # format: "index1 index2" where index1 < index2
+def solve(numbers: list[int], target: int) -> list:
+    # write your logic here and return the indices of the two numbers
+    # format: [index1, index2] where index1 < index2
 
 n = int(input())
 numbers = list(map(int, input().split()))
 target = int(input())
-solve(numbers, target)
+result = solve(numbers, target)
+print(result[0], result[1])
 ```
 
 #### Sample Input
